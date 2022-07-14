@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Резюме</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="info">
+        <img src="photo.png" alt="Тут моё фото" class="avatar" />
+        <div class="info-text">
+          <h1>Пепендрий Пуссин</h1>
+          <p>Аутичный хиккан который пытается в <strong>кодинг</strong>.</p>
+          <p>
+            Я люблю закидываться пивом и страдать фигнёй, а ешё путешевствовать.
+          </p>
+
+          <h4>Связаться со мной</h4>
+
+          <a href="https://vk.com/" target="_blank">VK</a>
+          |
+          <a href="https://t.me/" target="_blank">Telegram</a>
+          |
+          <a href="https://discord.com/" target="_blank">Discord</a>
+        </div>
+      </div>
+
+      <div class="card bg-yellow">
+        <h2>Мои хобби</h2>
+        <ol class="list">
+          <li>Пить пиво</li>
+          <li>Играть в игры</li>
+          <li>Рисовать</li>
+          <li>Путешествия</li>
+        </ol>
+      </div>
+
+      <div class="card bg-green">
+        <h2>Опыт работы</h2>
+        <table class="table">
+          <tr>
+            <td>Посттелеком</td>
+            <td>Оператор</td>
+            <td>2010-2014</td>
+          </tr>
+          <tr>
+            <td>Просттелеком</td>
+            <td>Канпелятор</td>
+            <td>2014-2017</td>
+          </tr>
+          <tr>
+            <td>Хвосттелеком</td>
+            <td>Подператор</td>
+            <td>2017-2019</td>
+          </tr>
+          <tr>
+            <td>Косттелеком</td>
+            <td>Заператор</td>
+            <td>2019-2022</td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="card bg-red">
+        <div class="contact">
+          <h2>Почта</h2>
+          <form action="/">
+            <div class="row">
+              <div class="form-group">
+                <label for="name">Ваше имя:</label>
+                <input type="text" id="name" placeholder="Ваше имя.." />
+              </div>
+
+              <div class="form-group">
+                <label for="email">Ваш email:</label>
+                <input type="email" id="email" placeholder="Ваш емайл.." />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="name">Ваше сообщение:</label>
+
+              <textarea id="text" cols="30" rows="3"></textarea>
+            </div>
+
+            <input class="btn" type="submit" value="Связаться" />
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
